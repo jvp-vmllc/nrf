@@ -131,11 +131,11 @@ manifest:
           upstream-sha: 1225729e8d84075f03bf9fc51eee85d84dfb0091
           compare-by-default: true
 
-    - name: sdk-mcuboot         
-      repo-path: sdk-mcuboot    #name of the repo
-      path: bootloader/mcuboot  #folder location
-      remote: vision-metering   #remote url defined above
-      revision: d69f75e075a78eba0fd82ef46de3aff9d27f412c    #commit SHA: d69f75e075a78eba0fd82ef46de3aff9d27f412c     tag: vision_v2.0.99-ncs1
+    - name: sdk-mcuboot               #any name, shown green in the logs
+      repo-path: sdk-mcuboot          #name of the repo
+      path: bootloader/mcuboot        #folder location
+      remote: vision-metering         #remote url defined above
+      revision: vision_v2.0.99-ncs1   #commit SHA: d69f75e075a78eba0fd82ef46de3aff9d27f412c     tag: vision_v2.0.99-ncs1
       
     - name: qcbor
       url: https://github.com/laurencelundblade/QCBOR
