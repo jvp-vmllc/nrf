@@ -133,7 +133,7 @@ manifest:
 
     - name: vision
       repo-path: sdk-mcuboot
-      revision: d69f75e075a78eba0fd82ef46de3aff9d27f412c
+      revision: vision_v2.0.99-ncs1
       path: bootloader/mcuboot
 
     - name: qcbor
